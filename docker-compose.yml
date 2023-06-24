@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - '80:80'
+    restart: always
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+      - ./assets:/usr/share/nginx/html/assets
+      - ./forms:/usr/share/nginx/html/forms
+      - ./portfolio-details.html:/usr/share/nginx/html/portafolio-details.html
