@@ -6,12 +6,11 @@
 * License: https://bootstrapmade.com/license/
 */
 :root {
-  --blanco: #ffffff;
-  --oscuro: #212121;
-  --primario: #1a69c4;
-  --secundario: #0097A7;
-  --gris: #757575;
-  --grisClaro: #DFE9F3;
+  --A: #3A7BC5;
+  --B: #8FBDF2;
+  --C: #4695F0;
+  --D: #425870;
+  --E: #3775BD;
 }
 /*--------------------------------------------------------------
 # General
@@ -43,12 +42,12 @@ body::before {
 }
 
 a {
-  color: var(--primario);
+  color: var(--A);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primario);
+  color: var(--B);
   text-decoration: none;
 }
 
@@ -102,7 +101,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid var(--primario);
+  border-bottom: 2px solid var(--B);
   padding-bottom: 6px;
 }
 
@@ -131,7 +130,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: var(--primario);
+  background: var(--C);
 }
 
 @media (max-width: 992px) {
@@ -249,7 +248,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: var(--primario);
+  background-color: var(--E);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -393,7 +392,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: var(--primario);
+  background: var(--A);
   margin: 4px 10px;
 }
 
@@ -413,7 +412,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: var(--primario);
+  color: var(--E);
 }
 
 .about-me .content ul {
@@ -434,7 +433,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--primario);
+  color: var(--A);
   line-height: 0;
 }
 
@@ -465,7 +464,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: var(--primario);
+  color: var(--A);
   border-radius: 50px;
   line-height: 0;
 }
@@ -517,7 +516,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--primario);
+  background-color: var(--A);
 }
 
 /*--------------------------------------------------------------
@@ -628,7 +627,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--primario);
+  background-color: var(--A);
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +654,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: var(--primario);
+  color: var(--A);
   margin-bottom: 10px;
 }
 
@@ -688,8 +687,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: var(--primario);
-  border: 2px solid var(--primario);
+  background: var(--A);
+  border: 2px solid var(--A);
 }
 
 /*--------------------------------------------------------------
@@ -706,7 +705,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: var(--primario);
+  background: var(--A);
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
@@ -751,8 +750,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: var(--primario);
-  border-color: var(--primario);
+  background: var(--A);
+  border-color: var(--A);
 }
 
 .services .icon-box:hover .icon {
@@ -760,11 +759,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: var(--primario);
+  color: var(--A);
 }
 
 .services .icon-box:hover .icon::before {
-  background: var(--primario);
+  background: var(--A);
 }
 
 .services .icon-box:hover h4 a,
@@ -805,7 +804,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: var(--primario);
+  background: var(--A);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -905,7 +904,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: var(--primario);
+  color: var(--A);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -999,7 +998,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--primario);
+  background-color: var(--A);
 }
 
 /*--------------------------------------------------------------
@@ -1014,7 +1013,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: var(--primario);
+  color: var(--A);
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1051,7 +1050,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: var(--primario);
+  color: var(--A);
 }
 
 .contact .php-email-form {
@@ -1075,7 +1074,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: var(--primario);
+  background: var(--A);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1095,7 +1094,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid var(--primario);
+  border: 3px solid var(--A);
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1137,7 +1136,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--primario);
+  background: var(--A);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1146,7 +1145,7 @@ section .container {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: var(--primario);
+  background: var(--A);
 }
 
 @keyframes animate-loading {
@@ -1183,7 +1182,7 @@ section .container {
 }
 
 .credits a {
-  color: var(--primario);
+  color: var(--A);
   transition: 0.3s;
 }
 
